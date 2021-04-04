@@ -3,6 +3,7 @@ import 'package:pro/services/api_client.dart';
 import 'package:pro/widgets/drop_down.dart';
 
 void main() => runApp(new MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Currency Converter",
       home: CurrencyConverter(),
     ));
